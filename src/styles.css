@@ -13,7 +13,7 @@ body {
 }
 
 .container-homepage {
-    margin: 200px auto;
+    margin: 120px auto;
     max-width: 1000px;
 }
 
@@ -22,6 +22,11 @@ body {
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.navbar-brand-active:hover,
+.navbar-brand-active:focus {
+    color: rgb(117, 179, 230);
 }
 
 h1 {
@@ -44,9 +49,10 @@ h2 {
     margin: 0 250px;
 }
 
-.navigation-links a {     
+.navigation-links a {    
+    font-family: 'Montserrat', sans-serif; 
     color: rgb(117, 179, 230);
-    font-size: 40px;
+    font-size: 28px;
     margin: 20px;
     border-radius: 7px;
     border: none;
@@ -65,6 +71,7 @@ h2 {
 .contact-link:focus {
     background: white;
     border: 1px solid rgb(117, 179, 230);
+    font-weight: 700;
 } 
 
 .about-link:hover,
@@ -72,6 +79,7 @@ h2 {
 .projects-link:hover,
 .projects-link:focus {
     border: 1px solid rgb(117, 179, 230);
+    font-weight: 700;
 } 
 
 .container-about {
@@ -79,16 +87,38 @@ h2 {
     max-width: 1000px;
 }
 
-.homepage-link {
+.creator {
     display: block;
-    color: rgb(117, 179, 230);
-    font-size: 24px;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-size: 14px;
 }
 
-.my-photo {
+.git-link,
+.linkedin-link,
+.insta-link,
+.mail-link {
+    color:rgb(117, 179, 230);
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+.git-link:hover,
+.linkedin-link:hover,
+.insta-link:hover,
+.mail-link:hover {
+    color: yellow;
+    font-size: 25px;
+}
+
+.creator-link {
+    color: var(--secondary-color);
+}
+
+.photo-marianna-dei {
     border-radius: 3px;
     filter: grayscale(30%);
+    margin: 0 auto;
 }
 
 p {
@@ -113,7 +143,7 @@ p {
 
 .contact-me {
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     text-align: center;
     margin: 10px auto;
 }
@@ -161,7 +191,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     background: white;
     color: rgb(117, 179, 230);
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 5px;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -173,6 +203,7 @@ p {
 .app-button:hover,
 .app-button:focus {
     border: 1px solid rgb(117, 179, 230);
+    font-weight: 700;
 }
 
 
