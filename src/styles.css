@@ -188,8 +188,7 @@ p {
   text-decoration: underline;
 }
 
-@media (min-widht: 280px) {
-    .project-title {
+.project-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -232,9 +231,7 @@ p {
 .app-button:focus {
     border: 1px solid rgb(117, 179, 230);
     font-weight: 700;
-}    
 }
-
 
 
 
