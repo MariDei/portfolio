@@ -115,6 +115,33 @@ h2 {
     color: var(--secondary-color);
 }
 
+@media (min-widht: 280px) {
+    .photo-marianna-dei {
+    border-radius: 3px;
+    filter: grayscale(30%);
+    margin: 0 auto;
+}
+
+p {
+    color: var(--secondary-color);
+    font-size: 36px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.about-paragraphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-paragraphs p {
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+    color: var(--secondary-color);
+    border-radius: 7px;
+    font-size: 28px;
+    margin: 3px;
+}    
+}
 .photo-marianna-dei {
     border-radius: 3px;
     filter: grayscale(30%);
@@ -161,7 +188,8 @@ p {
   text-decoration: underline;
 }
 
-.project-title {
+@media (min-widht: 280px) {
+    .project-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -204,7 +232,9 @@ p {
 .app-button:focus {
     border: 1px solid rgb(117, 179, 230);
     font-weight: 700;
+}    
 }
+
 
 
 
