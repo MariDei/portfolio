@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>About Me</title>
+  <head>    
     <meta charset="UTF-8" />
+    <meta name="description" content="Projects by Marianna Dei, Trainee Front-end Developer based in Ukraine">
+    <title>Projects by Marianna Dei</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
@@ -16,25 +17,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
     crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f99346d953.js" 
+    crossorigin="anonymous"></script>
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light"> 
       <div class="container-fluid">
-        <a class="navbar-brand-active" href="homepage.html">MARIANNA DEI</a>
+        <a class="navbar-brand-active" href="index.html" title="Homepage">MARIANNA DEI</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="homepage.html">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me</a>
+              <a class="nav-link" href="about.html" title="About Marianna Dei">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">My Projects</a>
+              <a class="nav-link" href="projects.html" title="Marianna Dei projects">My Projects</a>
             </li>
           </ul>
         </div>
@@ -46,11 +49,11 @@
       <div class="row mt-5">
         <h2 class="project-title">Travelling</h2>
         <div class="col-md-6">
-          <img src="images/project_1.png" class="img-fluid rounded shadow-sm p-2 border">
+          <img src="images/project_1.png" class="img-fluid rounded shadow-sm p-2 border" alt="Travelling project">
         </div>
         <div class="col-md-6">
           <p class="project-text">
-            "Traveling" is a Landing Page that was developed in October 2022 as the final project of the SheСodes BASIC workshop, 
+            "Traveling" is a landing page that was developed in October 2022 as the final project of the SheCodes BASIC workshop, 
             which I attended for 3 weeks.
             <br/>
             This is the first project created by me on my own, which shows my passion for traveling to exotic paradises.
@@ -59,7 +62,8 @@
           <div class="bubble-fluid rounded shadow-sm border">CSS</div>
           <div class="bubble-fluid rounded shadow-sm border">JS</div>
           <div class="bubble-fluid rounded shadow-sm border">Netlify</div>
-          <form action="https://shecodes-basics-travelling.netlify.app/" target="_blank">
+          <div class="bubble-fluid rounded shadow-sm border">GitHub</div>
+          <form action="https://shecodes-basics-travelling.netlify.app" target="_blank">
             <button class="app-button button-1">Let's choose your paradise!</button>
           </form>
         </div>
@@ -68,7 +72,7 @@
         <h2 class="project-title">Welcome to LUTSK</h2>
         <div class="col-md-6">
           <p class="project-text">
-            "Welcome to LUTSK" is a Landing Page that was created in November 2022 
+            "Welcome to LUTSK" is a landing page that was created in November 2022 
             to participate in the SheCodes Your Hometown Challenge, to present your hometown using code. 
             <br/>
             The Landing Page introduces the main facts about the city of Lutsk, its architectural monuments, 
@@ -79,22 +83,23 @@
           <div class="bubble-fluid rounded shadow-sm border">Bootstrap</div>
           <div class="bubble-fluid rounded shadow-sm border">JS</div>
           <div class="bubble-fluid rounded shadow-sm border">Netlify</div>
+          <div class="bubble-fluid rounded shadow-sm border">GitHub</div>
           <form action="https://shecodes-challenge-my-hometown-lutsk.netlify.app" target="_blank">
             <button class="app-button button-1">I invate you to visit my hometown!</button>
           </form>
         </div>
         <div class="col-md-6">
-          <img src="images/project_2.png" class="img-fluid rounded shadow-sm p-2 border">
+          <img src="images/project_2.png" class="img-fluid rounded shadow-sm p-2 border" alt="Welcome to LUTSK project">
         </div>
       </div>
       <div class="row mt-5">
         <h2 class="project-title">Weather App</h2>
         <div class="col-md-6">
-          <img src="images/project_3.png" class="img-fluid rounded shadow-sm p-2 border">
+          <img src="images/project_3.png" class="img-fluid rounded shadow-sm p-2 border" alt="Weather project">
         </div>
         <div class="col-md-6">
           <p class="project-text">
-            The Weather App was developed in December 2022 as the final project of the SheСodes PLUS workshop, which I attended for 8 weeks.
+            The Weather App was developed in December 2022 as the final project of the SheCodes PLUS workshop, which I attended for 8 weeks.
             <br>
             With this app, you can check the weather and get a 5-day forecast for your current location, as well as for any city in the world 
             that you need to manually enter in the search bar.
@@ -110,9 +115,15 @@
             </form>     
         </div>         
       </div>
-    </div> 
-    <h2 class="contact-me" id="contact-me">📩 Contact me</h2>
-    <a class="email-link" href="mailto:d.marianna@icloud.com">d.marianna@icloud.com</a>
+    </div>
+    <div class="footer">
+      <p class="creator">Designed &amp; built by Marianna Dei</p>
+      <div class="d-flex justify-content-sm-center">
+      <a href="https://shecodes-responsive-portfolio.netlify.app" target="_blank"><i class="fa-brands fa-square-github git-link"></i></a>
+      <a href="http://linkedin.com/in/marianna-dei-4b5078235" target="_blank"><i class="fa-brands fa-linkedin linkedin-link"></i></a>
+      <a href="https://www.instagram.com/deimari/" target="_blank"><i class="fa-brands fa-square-instagram insta-link"></i></a>
+      <a href="mailto:d.marianna@icloud.com"><i class="fa-solid fa-envelope-open-text mail-link"></i></a>
+      </div>   
     </div>
   </body>
 </html>
