@@ -13,8 +13,9 @@ body {
 }
 
 .container-homepage {
-    margin: 120px auto;
-    max-width: 1000px;
+    max-width: 950px;
+    max-height: 950px;
+    margin: 120px auto;   
 }
 
 .navbar-brand-active {
@@ -111,8 +112,8 @@ h2 {
 }
 
 .container-about {
+    max-width: 950px;
     margin: 20px auto;
-    max-width: 1000px;
 }
 
 .photo-marianna-dei {
@@ -162,8 +163,8 @@ p {
 }
 
 .container-projects {
+    max-width: 950px;
     margin: 20px auto;
-    max-width: 1000px;
 }
 
 .project-title {
@@ -177,7 +178,7 @@ p {
     color: var(--secondary-color);
     font-size: 24px;
     text-align: left;
-    margin: 5px auto;
+    margin: 0 auto;
 }
 
 .bubble-fluid {
@@ -196,13 +197,13 @@ p {
     font-family: 'Montserrat', sans-serif;
     background: white;
     color: rgb(117, 179, 230);
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     text-decoration: none;
     text-align: center;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 .app-button:hover,
