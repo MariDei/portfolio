@@ -183,7 +183,7 @@ p {
     font-family: var(--font-family-primary);
     color: var(--primary-color);
     border-radius: 1px;
-    font-size: 1px; 
+    font-size: 13px; 
     margin: 0 auto;
     padding: 3px 3px;
     min-width: 70px;
