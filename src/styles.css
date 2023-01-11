@@ -1,15 +1,18 @@
 :root {
+    --font-family-primary:'Quicksand', sans-serif;
+    --font-family-secondary:'Montez', cursive;
     --primary-color:#222831;
     --secondary-color: #3e4a61;
     --gradient: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);;
 }
 
 body {
-    font-family: 'Montez';  
-    color: var(--primary-color);
+    font-family: var(--font-family-secondary);  
+    color: var(--secondary-color);
 }
+
 .navbar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary)
 }
 
 .container-homepage {
@@ -19,7 +22,7 @@ body {
 }
 
 .navbar-brand-active {
-    color: var(--primary-color);
+    color: rgb(117, 179, 230) ;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
@@ -27,11 +30,12 @@ body {
 
 .navbar-brand-active:hover,
 .navbar-brand-active:focus {
-    color: rgb(117, 179, 230);
+    color: rgb(255, 253, 14);
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
     font-size: 64px;
     font-weight: 700;
     text-align: center;  
@@ -51,7 +55,7 @@ h2 {
 }
 
 .navigation-links a {    
-    font-family: 'Montserrat', sans-serif; 
+    font-family: var(--font-family-primary); 
     color: rgb(117, 179, 230);
     font-size: 28px;
     margin: 20px;
@@ -72,7 +76,7 @@ h2 {
 .contact-link:focus {
     background: white;
     border: 1px solid rgb(117, 179, 230);
-    font-weight: 700;
+    font-weight: 600;
 } 
 
 .about-link:hover,
@@ -85,8 +89,7 @@ h2 {
 
 .creator {
     display: block;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--secondary-color);
+    font-family: var(--font-family-primary);
     font-size: 14px;
 }
 
@@ -103,12 +106,8 @@ h2 {
 .linkedin-link:hover,
 .insta-link:hover,
 .mail-link:hover {
-    color: yellow;
+    color: rgb(255, 253, 14);
     font-size: 25px;
-}
-
-.creator-link {
-    color: var(--secondary-color);
 }
 
 .container-about {
@@ -118,12 +117,10 @@ h2 {
 
 .photo-marianna-dei {
     border-radius: 3px;
-    filter: grayscale(30%);
     margin: 0 auto;
 }
 
 p {
-    color: var(--secondary-color);
     font-size: 36px;
     text-align: center;
     margin: 10px auto;
@@ -136,14 +133,14 @@ p {
 
 .about-paragraphs p {
     background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
-    color: var(--secondary-color);
     border-radius: 7px;
     font-size: 28px;
     margin: 3px;
 }
 
 .contact-me {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
     font-size: 28px;
     text-align: center;
     margin: 10px auto;
@@ -152,7 +149,7 @@ p {
 .email-link {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
     color: rgb(117, 179, 230);
     font-size: 22px;
     text-decoration: none;
@@ -168,14 +165,14 @@ p {
 }
 
 .project-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
     font-size: 24px;
     font-weight: 700;
     text-align: center;
 }
 
 .project-text {
-    color: var(--secondary-color);
     font-size: 24px;
     text-align: left;
     margin: 0 auto;
@@ -183,10 +180,10 @@ p {
 
 .bubble-fluid {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
+    color: var(--primary-color);
     border-radius: 1px;
-    color: var(--secondary-color);
-    font-size: 12px; 
+    font-size: 1px; 
     margin: 0 auto;
     padding: 3px 3px;
     min-width: 70px;
@@ -194,10 +191,11 @@ p {
 }    
 
 .app-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-family-primary);
     background: white;
     color: rgb(117, 179, 230);
     font-size: 16px;
+    font-weight: 500;
     border-radius: 5px;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
