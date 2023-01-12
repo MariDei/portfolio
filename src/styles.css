@@ -1,25 +1,22 @@
 :root {
+    --primary-font-family:'Quicksand', sans-serif;
+    --secondary-font-family:'Montez', cursive;
     --primary-color:#222831;
     --secondary-color: #3e4a61;
-    --gradient: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);;
+    --gradient: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);
 }
 
 body {
-    font-family: 'Montez';  
-    color: var(--primary-color);
-}
-.navbar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-font-family);  
+    color: var(--secondary-color);
 }
 
-.container-homepage {
-    max-width: 950px;
-    max-height: 950px;
-    margin: 120px auto;   
+.navbar {
+    font-family: var(--primary-font-family);
 }
 
 .navbar-brand-active {
-    color: var(--primary-color);
+    color: rgb(117, 179, 230) ;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
@@ -27,11 +24,23 @@ body {
 
 .navbar-brand-active:hover,
 .navbar-brand-active:focus {
-    color: rgb(117, 179, 230);
+    color: rgb(255, 253, 14);
+}
+
+.container-homepage {
+  text-align: center;
+  padding: 120px 20px 0 20px;
+}
+
+.homepage-text {
+  font-size: 48px;
+  text-align: center;
+  margin: 10px auto;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
     font-size: 64px;
     font-weight: 700;
     text-align: center;  
@@ -44,14 +53,8 @@ h2 {
     margin: 10px auto;
 }
 
-.navigation-links {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 250px;
-}
-
 .navigation-links a {    
-    font-family: 'Montserrat', sans-serif; 
+    font-family: var(--primary-font-family); 
     color: rgb(117, 179, 230);
     font-size: 28px;
     margin: 20px;
@@ -72,7 +75,7 @@ h2 {
 .contact-link:focus {
     background: white;
     border: 1px solid rgb(117, 179, 230);
-    font-weight: 700;
+    font-weight: 600;
 } 
 
 .about-link:hover,
@@ -85,9 +88,9 @@ h2 {
 
 .creator {
     display: block;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
     font-size: 14px;
+    padding-top: 120px;
 }
 
 .git-link,
@@ -103,47 +106,35 @@ h2 {
 .linkedin-link:hover,
 .insta-link:hover,
 .mail-link:hover {
-    color: yellow;
+    color: rgb(255, 253, 14);
     font-size: 25px;
 }
 
-.creator-link {
-    color: var(--secondary-color);
-}
-
 .container-about {
-    max-width: 950px;
-    margin: 20px auto;
+    margin: 20px 20px;
 }
 
 .photo-marianna-dei {
     border-radius: 3px;
-    filter: grayscale(30%);
-    margin: 0 auto;
+    margin: 0 10px;
 }
 
 p {
-    color: var(--secondary-color);
     font-size: 36px;
     text-align: center;
     margin: 10px auto;
 }
 
-.about-paragraphs {
-    display: flex;
-    justify-content: space-between;
-}
-
 .about-paragraphs p {
     background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
-    color: var(--secondary-color);
     border-radius: 7px;
     font-size: 28px;
-    margin: 3px;
+    margin: 3px 10px;
 }
 
 .contact-me {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
     font-size: 28px;
     text-align: center;
     margin: 10px auto;
@@ -152,7 +143,7 @@ p {
 .email-link {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font-family);
     color: rgb(117, 179, 230);
     font-size: 22px;
     text-decoration: none;
@@ -163,30 +154,29 @@ p {
 }
 
 .container-projects {
-    max-width: 950px;
-    margin: 20px auto;
+    margin: 20px 20px;
 }
 
 .project-title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
 }
 
 .project-text {
-    color: var(--secondary-color);
-    font-size: 24px;
+    font-size: 28px;
     text-align: left;
     margin: 0 auto;
 }
 
 .bubble-fluid {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
     border-radius: 1px;
-    color: var(--secondary-color);
-    font-size: 12px; 
+    font-size: 16px; 
     margin: 0 auto;
     padding: 3px 3px;
     min-width: 70px;
@@ -194,10 +184,11 @@ p {
 }    
 
 .app-button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--primary-font-family);
     background: white;
     color: rgb(117, 179, 230);
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 500;
     border-radius: 5px;
     border: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -213,10 +204,19 @@ p {
 }
 
 
+@media (max-width: 900px) {
+  h1 {
+    font-size: 54px;
+    line-height: 2;
+  }
 
+  h2 {
+    font-size: 38px;
+  }
 
-
-
- 
-
-
+  .container-homepage,
+  .container-about,
+  .container-projects {
+    padding: 100px 20px;
+  }
+}
