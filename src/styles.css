@@ -117,7 +117,8 @@ body {
     text-align: center;
 }    
 
-.button-project {
+.button-project,
+.button-about {
     font-family: var(--primary-font-family);
     color: rgb(117, 179, 230);
     font-size: 22px;
@@ -130,7 +131,9 @@ body {
 }
 
 .button-project:hover,
-.button-project:focus {
+.button-project:focus,
+.button-about:hover,
+.button-about:focus {
     border: 1px solid rgb(117, 179, 230);
     color: rgb(117, 179, 230);
     font-weight: 700;
@@ -159,6 +162,59 @@ body {
     font-size: 25px;
 }
 
+.about-section {
+    padding: 160px 20px;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.title-about-1 {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 54px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center; 
+}
+
+.title-about-2 {  
+    font-size: 34px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about-text,
+.about-text-reasons {
+    font-size: 24px;
+}
+
+.about-text-reasons {
+    text-align: left;
+}
+
+.contact-me {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 28px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.email-link {
+    display: flex;
+    justify-content: center;
+    font-family: var(--primary-font-family);
+    color: rgb(117, 179, 230);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
    .container-hero {
     padding: 80px 20px;
@@ -182,11 +238,27 @@ body {
     padding: 0;
     text-align: center;
   }
+
+   .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .title-about-1 {
+    font-size: 54px;
+    line-height: 1;
+  }
+
+   .title-about-2 {
+    font-size: 34px;
+    line-height: 1;
+  }
+
+  .about-text,
+  .about-text-reasons {
+    font-size: 28px;
 }
-
-
-
-
+}
 
 
  
