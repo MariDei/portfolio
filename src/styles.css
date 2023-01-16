@@ -80,19 +80,22 @@ body {
     font-weight: 700;
 } 
 
-.text-hero {
-  font-family: var(--primary-font-family);
-  color: var(--primary-color);
-  font-size: 40px;
-  font-weight: 600;
-  margin: 0;
-}
-
 .project-desciption {
-  padding: 120px 60px;
+    padding: 120px 60px;
 }
 
-.project-title {
+.title-project,
+.title-work-1 {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.project-title,
+.title-work-3 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
     font-size: 36px;
@@ -111,7 +114,7 @@ body {
     color: var(--primary-color);
     border-radius: 1px;
     font-size: 14px; 
-    margin: 0 auto;
+    margin: 2px auto;
     padding: 3px 3px;
     min-width: 70px;
     text-align: center;
@@ -215,6 +218,14 @@ body {
   text-decoration: underline;
 }
 
+.work-container {
+  padding: 160px 20px;
+}
+
+.content-work {
+  margin: 30px;
+}
+
 @media (max-width: 900px) {
    .container-hero {
     padding: 80px 20px;
@@ -232,6 +243,12 @@ body {
 
   .navigation-links a {    
     font-size: 20px;
+  }
+
+  .title-project,
+  .title-work-1 {
+    font-size: 44px;
+    line-height: 1;
   }
 
   .project-description {
@@ -258,6 +275,11 @@ body {
   .about-text-reasons {
     font-size: 28px;
 }
+
+ .content-work {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 
