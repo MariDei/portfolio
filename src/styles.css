@@ -18,13 +18,13 @@ body {
 .navbar-brand-active {
     color: rgb(117, 179, 230);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .navbar-brand-active:hover,
 .navbar-brand-active:focus {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .active {
