@@ -16,20 +16,27 @@ body {
 }
 
 .navbar-brand-active {
-    color: rgb(117, 179, 230) ;
+    color: rgb(117, 179, 230);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .navbar-brand-active:hover,
 .navbar-brand-active:focus {
-    color: rgb(255, 253, 14);
+    font-weight: 700;
 }
 
-.container-hero {
-  text-align: center;
-  padding: 160px 20px;
+.nav-link:hover {
+    color: rgb(117, 179, 230);
+}
+
+.container-hero,
+.project-desciption,
+.about-section,
+.work-container,
+.contact-container {
+    padding: 120px 20px;
 }
 
 .title-hero-1 {
@@ -80,12 +87,10 @@ body {
     font-weight: 700;
 } 
 
-.project-desciption {
-    padding: 120px 60px;
-}
-
 .title-project,
-.title-work-1 {
+.title-work-1,
+.title-about-1,
+.contact-title-1 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
     font-size: 54px;
@@ -95,7 +100,8 @@ body {
 }
 
 .project-title,
-.title-work-3 {
+.title-work-3,
+.contact-title-3 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
     font-size: 36px;
@@ -151,35 +157,23 @@ body {
 .git-link,
 .linkedin-link,
 .insta-link,
-.mail-link {
+.mail-link,
+.phone-link {
     color:rgb(117, 179, 230);
-    font-size: 20px;
+    font-size: 25px;
     margin: 5px 10px;
 }
 
 .git-link:hover,
 .linkedin-link:hover,
 .insta-link:hover,
-.mail-link:hover {
-    color: rgb(255, 253, 14);
-    font-size: 25px;
+.mail-link:hover,
+.phone-link:hover {
+    font-size: 30px;
 }
 
-.about-section {
-    padding: 160px 20px;
-}
-
-.about-section-content {
+.content {
     margin: 30px;
-}
-
-.title-about-1 {
-    font-family: var(--primary-font-family);
-    color: var(--primary-color);
-    font-size: 54px;
-    line-height: 1.5;
-    font-weight: 700;
-    text-align: center; 
 }
 
 .title-about-2 {  
@@ -205,25 +199,19 @@ body {
     margin: 10px auto;
 }
 
-.email-link {
+.email-link,
+.tel-link {
     display: flex;
     justify-content: center;
     font-family: var(--primary-font-family);
     color: rgb(117, 179, 230);
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.work-container {
-  padding: 160px 20px;
-}
-
-.content-work {
-  margin: 30px;
+.email-link:hover,
+.tel-link:hover {
+    font-weight: 700;   
 }
 
 @media (max-width: 900px) {
@@ -231,14 +219,18 @@ body {
     padding: 80px 20px;
   }
 
-  .title-hero-1 {
-    font-size: 54px;
+  .title-hero-1,
+  .title-about-1 {
+    font-size: 54;
     line-height: 1;
+    margin: 30px auto;
   }
 
-  .title-hero-2 {
+  .title-hero-2,
+  .title-about-2 {
     font-size: 34px;
     line-height: 1;
+    margin: 30px auto;
   }
 
   .navigation-links a {    
@@ -246,40 +238,22 @@ body {
   }
 
   .title-project,
-  .title-work-1 {
-    font-size: 44px;
+  .title-work-1,
+  .contact-title-1 {
     line-height: 1;
   }
 
-  .project-description {
+  .project-description,
+  .about-section,
+  .content {
     padding: 0;
     text-align: center;
-  }
-
-   .about-section {
-    text-align: center;
-    padding: 0;
-  }
-
-  .title-about-1 {
-    font-size: 54px;
-    line-height: 1;
-  }
-
-   .title-about-2 {
-    font-size: 34px;
-    line-height: 1;
   }
 
   .about-text,
   .about-text-reasons {
     font-size: 28px;
 }
-
- .content-work {
-    text-align: center;
-    padding: 0;
-  }
 }
 
 
