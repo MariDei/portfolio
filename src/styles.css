@@ -39,7 +39,7 @@ body {
 .about-section,
 .work-container,
 .contact-container {
-    padding: 120px 20px;
+    padding: 100px 20px;
 }
 
 .title-hero-1 {
@@ -207,6 +207,18 @@ footer {
     margin: 20px auto;
 }
 
+.github-link {
+    color: rgb(117, 179, 230);
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.github-link:hover {
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
 .git-link,
 .linkedin-link,
 .insta-link,
@@ -231,7 +243,8 @@ footer {
 }
 
 @media (max-width: 900px) {
-   .container-hero {
+   .container-hero,
+   .content {
     padding: 80px 20px;
   }
 
@@ -270,7 +283,14 @@ footer {
   .about-text,
   .about-text-reasons {
     font-size: 28px;
-}
+  }
+
+  .email-link,
+  .tel-link,
+  .mail-link,
+  .phone-link {
+    font-size: 20px;
+  }
 }
 
 
