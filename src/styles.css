@@ -262,7 +262,7 @@ footer {
 
   .title-hero-1,
   .title-about-1 {
-    font-size: 44;
+    font-size: 54 ;
     line-height: 1;
     margin: 30px auto;
   }
@@ -275,7 +275,7 @@ footer {
   }
 
   .navigation-links a {    
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .title-project,
