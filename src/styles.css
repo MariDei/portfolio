@@ -257,12 +257,12 @@ footer {
 @media (max-width: 900px) {
    .container-hero,
    .content {
-    padding: 80px 20px;
+    padding: 80px 10px;
   }
 
   .title-hero-1,
   .title-about-1 {
-    font-size: 54;
+    font-size: 44;
     line-height: 1;
     margin: 30px auto;
   }
@@ -275,7 +275,7 @@ footer {
   }
 
   .navigation-links a {    
-    font-size: 20px;
+    font-size: 17px;
   }
 
   .title-project,
