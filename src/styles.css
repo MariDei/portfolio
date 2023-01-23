@@ -3,7 +3,7 @@
     --secondary-font-family:'Montez', cursive;
     --primary-color:#222831;
     --secondary-color: #3e4a61;
-    --gradient: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);;
+    --gradient: linear-gradient(178.3deg, rgb(188, 251, 255) 11.5%, rgb(255, 253, 14) 103.1%);
 }
 
 body {
@@ -255,6 +255,14 @@ footer {
 }
 
 @media (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
    .container-hero,
    .content {
     padding: 80px 10px;
