@@ -224,7 +224,6 @@ footer {
 .github-link:focus {
     font-weight: 700;
     text-decoration: none;
-
 }
 
 .git-link,
@@ -293,6 +292,10 @@ footer {
     line-height: 1;
   }
 
+  .title-work-3 {
+    font-size: 30px;
+  }
+  
   .container-project,
   .about-section,
   .content {
