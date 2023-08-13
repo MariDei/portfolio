@@ -38,6 +38,7 @@ body {
 
 .container-hero,
 .about-section,
+.certificate-section,
 .work-container,
 .contact-container {
     padding: 100px 20px;
@@ -101,6 +102,7 @@ body {
 .title-project,
 .title-work-1,
 .title-about-1,
+.title-certificate-1,
 .contact-title-1 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
@@ -112,6 +114,7 @@ body {
 
 .project-title,
 .title-work-3,
+.title-certificate-3,
 .contact-title-3 {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
