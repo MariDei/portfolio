@@ -289,12 +289,14 @@ footer {
 
   .title-project,
   .title-work-1,
+  .title-certificate-1,
   .contact-title-1 {
-    font-size: 40px;
+    font-size: 44px;
     line-height: 1;
   }
 
-  .title-work-3 {
+  .title-work-3,
+  .title-certificate-3 {
     font-size: 24px;
   }
   
